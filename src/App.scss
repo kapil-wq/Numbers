@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'PermanentMarker';
+  src: url('PermanentMarker-Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: PermanentMarker, sans-serif;
+}
+
+.header {
+	text-align: center;
+}
+
+.nav {
+	ul {
+		
+
+	}
+	li {
+		display: inline-block;
+		list-style-type: none;
+
+	}
+	a {
+		text-decoration: none;
+	}
+}
