@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/numbers/static/css/main.0fc3428f.chunk.css",
+    "main.js": "/numbers/static/js/main.d1dc0594.chunk.js",
+    "main.js.map": "/numbers/static/js/main.d1dc0594.chunk.js.map",
+    "runtime-main.js": "/numbers/static/js/runtime-main.200381bd.js",
+    "runtime-main.js.map": "/numbers/static/js/runtime-main.200381bd.js.map",
+    "static/js/2.a3eab99a.chunk.js": "/numbers/static/js/2.a3eab99a.chunk.js",
+    "static/js/2.a3eab99a.chunk.js.map": "/numbers/static/js/2.a3eab99a.chunk.js.map",
+    "index.html": "/numbers/index.html",
+    "precache-manifest.d71b8da1f65338745dd701caccf861cf.js": "/numbers/precache-manifest.d71b8da1f65338745dd701caccf861cf.js",
+    "service-worker.js": "/numbers/service-worker.js",
+    "static/css/main.0fc3428f.chunk.css.map": "/numbers/static/css/main.0fc3428f.chunk.css.map",
+    "static/js/2.a3eab99a.chunk.js.LICENSE.txt": "/numbers/static/js/2.a3eab99a.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/numbers/static/media/PermanentMarker-Regular.c863f802.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.200381bd.js",
+    "static/js/2.a3eab99a.chunk.js",
+    "static/css/main.0fc3428f.chunk.css",
+    "static/js/main.d1dc0594.chunk.js"
+  ]
+}
