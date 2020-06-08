@@ -31,17 +31,19 @@ import Fact from './Fact';
       alert("Enter valid input");
     else {
      this.setState({fact: 'Loading...'});
-     fetch(`http://numbersapi.com/${this.state.number}/${this.state.activeTab}?json`)
-      .then(response=> response.json())
-      .then(fact => {this.setState({ fact: fact.text})});
+     fetch(`http://numbersapi.com/${this.state.number}/${this.state.activeTab}`)
+      .then(response=> response.text())
+      .then(fact => {        
+        this.setState({ fact: fact})
+      });
     }
   }
 
   getRandomFact = () => {
     this.setState({fact: 'Loading...'});
-      fetch(`http://numbersapi.com/random/${this.state.activeTab}?json`)
-      .then(response=> response.json())
-      .then(fact => {this.setState({ fact: fact.text})});
+      fetch(`http://numbersapi.com/random/${this.state.activeTab}`)
+      .then(response=> response.text())
+      .then(fact => {this.setState({ fact: fact})});
   }
 
   getDateFact = () => {
@@ -49,9 +51,9 @@ import Fact from './Fact';
       alert("Enter valid input");
     else {
     this.setState({fact: 'Loading...'});
-    fetch(`http://numbersapi.com/${this.state.month}/${this.state.day}/${this.state.activeTab}?json`)
-      .then(response=> response.json())
-      .then(fact => {this.setState({ fact: fact.text})});
+    fetch(`http://numbersapi.com/${this.state.month}/${this.state.day}/${this.state.activeTab}`)
+      .then(response=> response.text())
+      .then(fact => {this.setState({ fact: fact})});
     }
   }
 
