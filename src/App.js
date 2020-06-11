@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
-import Nav from './Nav';
+import Navv from './Navv';
 import Inputs from './Inputs';
 import Fact from './Fact';
 
@@ -74,15 +75,15 @@ import Fact from './Fact';
 
   render() {
   return (
-    <div>
+    <>
       <div className = "header">
       <h1>Numbers Facts</h1>
       </div>
-      <Nav activeTab={this.state.activeTab} 
+      <Navv activeTab={this.state.activeTab} 
       onClick = {this.changeTab}/>
       <Inputs activeTab={this.state.activeTab} enterPress={this.enterPress} getFact={this.getFact} getRandomFact={this.getRandomFact} getDateFact={this.getDateFact} numberChange={this.numberChange} monthChange={this.monthChange} dayChange={this.dayChange} number={this.state.number} month={this.state.month} day={this.state.day}/>
       <Fact fact={this.state.fact}/>
-    </div>
+    </>
   );
 }
 }
